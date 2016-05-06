@@ -1,0 +1,26 @@
+.login-wrapper {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    width: 350px;
+    height: auto;
+    background: #fff;
+}
+
+.login__header {
+    width: 100%;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 54px;
+    background: #00bcd4;
+}
+
+.login__form {
+    padding: 0 20px 20px 20px;
+}
