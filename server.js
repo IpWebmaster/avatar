@@ -11,7 +11,7 @@ const compiler = webpack(config);
 app.use(webpackDevMiddleware(compiler, { noInfo: true, publicPath: config.output.publicPath, historyApiFallback: false }));
 app.use(webpackHotMiddleware(compiler));
 
-app.get('/', (req, res) => {
+app.get(/.*/, (req, res) => {
   res.sendFile(`${__dirname}/index.html`);
 });
 
